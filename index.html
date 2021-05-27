@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>New Page</title>
+	<link rel="stylesheet" href="style.css">
+	<script>
+
+	</script>
+</head>
+
+<body>
+	<h1>Active Page</h1>
+	<div class="div1">
+		<script>
+			var name=prompt("Enter Your Name Please");
+		</script>
+		<h2>Your Welcome
+			<script>
+				document.write(name);
+			</script>
+		</h2>
+		<h4>Enter Your Age Please:</h4><input type="text" id="age"> 
+   
+   <script>
+       
+   function Allowf(){
+    var yourAge =document.getElementById("age").value;
+   if(yourAge>=18)
+   alert("You to Continue Browse This Page");
+   else{
+    alert("your age cannot allow you to browse this page Please Leave This Page Now....!"); 
+   }
+   }
+   </script>
+   <input type="submit" id="submit" onclick="Allowf()">
+   You should know this page only for adults
+</div>
+<div id="img">
+    <img src="image/computer1.jpg">
+    <img src="image/computer2.jpg">
+    <img src="image/computer3.jpg">
+    
+</div>
+ 
+
+
+   <footer>
+       <h1 id="goodbye">Goodbye</h1> 
+       <h3>You Can Change Color Of Goodbye By These Button</h3>
+       <input type="button" value="blue" onclick="blue()">
+       <input type="button" value="green" onclick="green()">
+       <input type="button" value="yellow" onclick="yellow()">
+       <input type="button" value="black" onclick="black()">
+    </footer>
+
+    <script>
+     function blue(){
+         document.getElementById("goodbye").style.color="blue";
+     }
+     function green(){
+         document.getElementById("goodbye").style.color="green";
+     }
+     function yellow(){
+         document.getElementById("goodbye").style.color="yellow";
+     }
+     function black(){
+         document.getElementById("goodbye").style.color="black";
+     }
+
+    </script>
+    </body>
+
+
+
+
+
+
+
+
+</body>
+</html>

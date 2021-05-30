@@ -2,7 +2,7 @@ var name =prompt("please write Cat here And Check the C capital");
 
 while(name!="Cat"){
 
-prompt("please write Cat here And Check the C capital");
+name=prompt("please write Cat here And Check the C capital");
 
 }
 

@@ -5,21 +5,32 @@
 	<title>New Page</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="java.js">
-
+   
 	</script>
 </head>
 
 <body>
 	<h1>Active Page</h1>
+  <div id="list">
+   <ul>
+      <li>Home</li>
+      <li>Account</li>
+      <li>Teel</li>
+      <li>About As</li>
+    </ul>
+
+  </div>
 	<div class="div1">
 		<script>
-			var name=prompt("Enter Your Name Please");
+	
 		</script>
 		<h2>Your Welcome
 			<script>
 				document.write(name);
+        document.write(age);
 			</script>
 		</h2>
+    
 		<h4>Enter Your Age Please:</h4><input type="text" id="age"> 
    
    <script>
@@ -27,7 +38,7 @@
    function Allowf(){
     var yourAge =document.getElementById("age").value;
    if(yourAge>=18)
-   alert("You Can Continue Browse This Page");
+   alert("You can Continue Browse This Page");
    else{
     alert("your age cannot allow you to browse this page Please Leave This Page Now....!"); 
    }
